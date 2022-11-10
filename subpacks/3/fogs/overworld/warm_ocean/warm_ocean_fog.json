@@ -1,0 +1,17 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "java_aspects:warm_ocean_fog"
+    },
+    "distance": {
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 80.0,
+        "fog_color": "#149BFF",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

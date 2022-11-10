@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:hopper",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/hopper"
+      },
+      "geometry": {
+        "default": "geometry.hopper_hand"
+      },
+      "animations": {
+        "wield": "animation.hopperhand.first_person_wield",
+        "default": "animation.hopperhand.default"
+      },
+      "scripts": {
+        "animate": [
+          { "wield": "c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'hopper'"
+          },
+          { "default": "!c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'hopper'"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.hopper_hand" ]
+    }
+  }
+}

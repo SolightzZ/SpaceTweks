@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:oak_sign",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/sign"
+      },
+      "geometry": {
+        "default": "geometry.sign_alt"
+      },
+      "animations": {
+        "first_person": "animation.item.first_person"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.item" ]
+    }
+  }
+}

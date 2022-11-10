@@ -1,0 +1,23 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "java_aspects:the_end_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.92,
+        "fog_end": 1.0,
+        "fog_color": "#130F19",
+        "render_distance_type": "render"
+      },
+      "weather": {
+        "fog_start": 0.92,
+        "fog_end": 1.0,
+        "fog_color": "#130F19",
+        "render_distance_type": "render"
+      }
+    }
+  }
+}

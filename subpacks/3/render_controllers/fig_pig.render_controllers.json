@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.fig_pig": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+	"arrays":{
+		"textures":{
+			"Array.textures":[
+			"Texture.default68",
+			"Texture.default69"
+			]
+		}
+	},
+      "textures": [ "Array.textures[variable.fig_pig]" ]
+    }
+  }
+}

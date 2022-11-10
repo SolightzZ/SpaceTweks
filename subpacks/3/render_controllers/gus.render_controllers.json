@@ -1,0 +1,19 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.gus": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+	"arrays":{
+		"textures":{
+			"Array.textures":[
+			"Texture.default83",
+			"Texture.default84",
+			"Texture.default85"
+			]
+		}
+	},
+      "textures": [ "Array.textures[variable.Xvar]" ]
+    }
+  }
+}

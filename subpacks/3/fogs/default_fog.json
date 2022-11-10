@@ -1,0 +1,41 @@
+//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "java_aspects:default_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.92,
+        "fog_end": 1.0,
+        "fog_color": "#ADCBFF",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 80.0,
+        "fog_color": "#1919ff",
+        "render_distance_type": "fixed"
+      },
+      "weather": {
+        "fog_start": 0.92,
+        "fog_end": 1.0,
+        "fog_color": "#5A648F", //#2B3044 for thunder
+        "render_distance_type": "render"
+      },
+      "lava": {
+        "fog_start": 0.0,
+        "fog_end": 0.64,
+        "fog_color": "#991900",
+        "render_distance_type": "fixed"
+      },
+      "lava_resistance": {
+        "fog_start": 2.0,
+        "fog_end": 4.0,
+        "fog_color": "#991900",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

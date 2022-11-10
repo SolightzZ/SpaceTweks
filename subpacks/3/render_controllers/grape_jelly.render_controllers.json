@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.grape_jelly": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+	"arrays":{
+		"textures":{
+			"Array.textures":[
+			"Texture.default62",
+			"Texture.default63"
+			]
+		}
+	},
+      "textures": [ "Array.textures[variable.grape_jelly]" ]
+    }
+  }
+}

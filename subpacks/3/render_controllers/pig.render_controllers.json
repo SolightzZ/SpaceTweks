@@ -1,0 +1,72 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pig": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.saddled"
+          ],
+          "Array.Xskins": [
+            "Texture.default",
+            "Texture.default2",
+            "Texture.default3",
+            "Texture.default4",
+            "Texture.default5",
+            "Texture.default6",
+            "Texture.default7",
+            "Texture.default8",
+            "Texture.default9",
+            "Texture.default10",
+            "Texture.default11",
+            "Texture.default12",
+            "Texture.default13",
+            "Texture.default14",
+            "Texture.default15",
+            "Texture.default16",
+            "Texture.default17",
+            "Texture.default18",
+            "Texture.default19",
+            "Texture.default20",
+            "Texture.default21",
+            "Texture.default22",
+            "Texture.default23",
+            "Texture.default24",
+            "Texture.default25",
+            "Texture.default41",
+            "Texture.default42",
+            "Texture.default43",
+            "Texture.default44",
+            "Texture.default45",
+            "Texture.default46",
+            "Texture.default47",
+            "Texture.default48",
+            "Texture.default49",
+            "Texture.default50",
+            "Texture.default57",
+            "Texture.default70",
+            "Texture.default71",
+            "Texture.default72",
+            "Texture.default73",
+            "Texture.default74",
+            "Texture.default75",
+            "Texture.default82",
+            "Texture.default104",
+            "Texture.default122",
+            "Texture.default143"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_saddled ? Texture.saddled : query.is_name_any('Watery Blowhog') ? Texture.default26 : query.is_name_any('Fiery Blowhog') ? Texture.default27 : query.is_name_any('Hamburglar') ? Texture.default28 : query.is_name_any('Wild Cat') ? Texture.default29 : query.is_name_any('Evil Dr. Porkchop') ? Texture.default30 : query.is_name_any('Sensboar') ? Texture.default31 : query.is_name_any('Bokoblin') ? Texture.default32 : query.is_name_any('Wumpus') ? Texture.default38 : query.is_name_any('Porky') ? Texture.default : query.is_name_any('Pigza') ? Texture.default51 : query.is_name_any('Hotdog') ? Texture.default52 : query.is_name_any('Hamboarger') ? Texture.default53 : query.is_name_any('Chicken Sandwich') ? Texture.default54 : query.is_name_any('Sundae') ? Texture.default55 : query.is_name_any('Donut') ? Texture.default56 : query.is_name_any('Floaty') ? Texture.default76 : query.is_name_any('Ducky') ? Texture.default77 : query.is_name_any('Gulper') ? Texture.default78 : query.is_name_any('Snorkel') ? Texture.default79 : query.is_name_any('Skelepig') ? Texture.default86 : query.is_name_any('Zomboink') ? Texture.default87 : query.is_name_any('Frakenswine Monster') ? Texture.default88 : query.is_name_any('Ghostly') ? Texture.default89 : query.is_name_any('Mummie') ? Texture.default90 : query.is_name_any('Mirror') ? Texture.default91 : query.is_name_any('Frankenswine') ? Texture.default92 : query.is_name_any('Spooky Looty') ? Texture.default93 : query.is_name_any('Edgewich') ? Texture.default105 : query.is_name_any('creepermax123') ? Texture.default106 : query.is_name_any('Hiesenboarg') ? Texture.default107 : query.is_name_any('Snorkin') ? Texture.default108 : query.is_name_any('Drownburglar') ? Texture.default109 : query.is_name_any('Hot Hog Rider') ? Texture.default127 : query.is_name_any('Alpha-male') ? Texture.default110 : query.is_name_any('Neaporkytan ice-hog') ? Texture.default111 : query.is_name_any('deathly scu-gent') ? Texture.default112 : query.is_name_any('Ducky Momo') ? Texture.default118 : query.is_name_any('sir oinksalot') ? Texture.default113 : query.is_name_any('Bert') ? Texture.default114 : query.is_name_any('Nigel') ? Texture.default115 : query.is_name_any('Octopod') ? Texture.default116 : query.is_name_any('Sanitized Octopod') ? Texture.default117 : query.is_name_any('Ice cream boar') ? Texture.default119 : query.is_name_any('pumpswin') ? Texture.default120 : query.is_name_any('Ccrazyy hamboarger') ? Texture.default121 : query.is_name_any('Drowned Chest') ? Texture.default123 : query.is_name_any('The Walker') ? Texture.default124 : query.is_name_any('Harold') ? Texture.default125 : query.is_name_any('Sundae Skelly') ? Texture.default126 : query.is_name_any('Diving Fred') ? Texture.default128 : query.is_name_any('The King') ? Texture.default129 : query.is_name_any('Summer Bert') ? Texture.default130 : query.is_name_any('Drippy Jim') ? Texture.default131 : query.is_name_any('Roboswine') ? Texture.default132 : query.is_name_any('Thank you Hector') ? Texture.default133 : query.is_name_any('Apollo') ? Texture.default134 : query.is_name_any('Boarnacle') ? Texture.default135 : query.is_name_any('Sniffer') ? Texture.default136 : query.is_name_any('Wildfire') ? Texture.default141 : query.is_name_any('Icey') ? Texture.default142 : query.is_name_any('Alligator') ? Texture.default144 : query.is_name_any('PB&J') ? Texture.default145 : query.is_name_any('The Monopoly Creeper') ? Texture.default146 : query.is_name_any('Pigbin') ? Texture.default147 : query.is_name_any('Geico Insurance') ? Texture.default148 : query.is_name_any('Rumplstiltskin') ? Texture.default149 : query.is_name_any('Nutter Butter') ? Texture.default150 : query.is_name_any('King Porky The First') ? Texture.default151 : query.is_name_any('Scary jelly pig') ? Texture.default152 : query.is_name_any('sands') ? Texture.default153 : query.is_name_any('Enderpork') ? Texture.default154 : query.is_name_any('Grape Jam Muddy Friend') ? Texture.default155 : Array.Xskins[variable.Xvar]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.coppork_golem": {
+      "arrays": {
+        "textures": {
+          "Array.Xcracks": [
+            "Texture.default140",
+            "Texture.default139",
+            "Texture.default138",
+            "Texture.default137"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [ "Array.Xcracks[math.clamp(query.health / 3, 0, 3)]" ]
+    }
+  }
+}
+
+
+}
+

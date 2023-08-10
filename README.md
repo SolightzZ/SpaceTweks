@@ -1,8 +1,2 @@
-# SpaceTweks
- SpaceTweks
-
-👇 Download SpaceTweks V3 👇
-
-https://github.com/SolightzZ/SpaceTweks/releases/tag/SpaceTweks 
-
-![](https://cdn.discordapp.com/attachments/1012947069348102236/1028615067475910699/SoTw.png)
+![](https://cdn.discordapp.com/attachments/1018330493575508078/1131105873868112013/title_ST5.png)
+# SpaceTweks  Official release of 5.2 fix

@@ -1,0 +1,7 @@
+resourcePack.subpackResolution=%s
+map.position=%s %s %s
+accessibility.chat.howtoopen=Press %s to open chat
+accessibility.chat.howtoemote=Press or Hold %s to Emote
+
+commands.tp.success=Teleported %1$s to %2$s
+commands.tp.successVictim=You have been teleported to %1$s

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.experience_orb",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [8, 8, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, 0],
+							"size": [16, 16, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "glow",
+					"parent": "body",
+					"pivot": [8, 8, 0],
+					"cubes": [
+						{
+							"origin": [-2.5, -2.5, -0.025],
+							"size": [21, 21, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [16, 16]}
+							}
+						}
+					],
+					"locators": {
+						"xp_glow": [8, 8, -0.2],
+						"xp_glow2": [8, 0.1, -0.2]
+					}
+				}
+			]
+		}
+	]
+}

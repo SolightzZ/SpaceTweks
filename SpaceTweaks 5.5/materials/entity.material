@@ -1,0 +1,13 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "ra:experience_orb": {
+      "+defines": [ "USE_UV_ANIM", "USE_ENTITY_BEAM_ADDITIVE" ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 0
+        }
+      ]
+    }
+  }
+}

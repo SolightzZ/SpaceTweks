@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.experience_orb": {
+        "geometry": "Geometry.default",
+        "materials": [ { "*": "Material.default" } ],
+        "textures": [ "Texture.default" ],
+        "overlay_color": {
+          "r": "0.75+(Math.sin(q.life_time * 300.0) + 1) * 1",
+          "a": "0.55+(Math.sin(q.life_time * 600.0) + 1)"
+        },
+        "ignore_lighting": true,
+        "uv_anim": {
+            "offset": [ "v.u", "v.v" ],
+            "scale": [ 1.0, 1.0 ]
+        },
+        "part_visibility": [
+          { "glow": false }
+        ]
+    },
+    "controller.render.experience_orb.glow": {
+        "geometry": "Geometry.default",
+        "materials": [ { "*": "Material.glow" } ],
+        "textures": [ "Texture.default" ],
+        "overlay_color": {
+          "r": "1",
+          "a": "0.65"
+        },
+        "ignore_lighting": true,
+        "uv_anim": {
+            "offset": [ "v.u", "v.v" ],
+            "scale": [ 1.0, 1.0 ]
+        },
+        "part_visibility": [
+          { "*": false },
+          { "glow": true }
+        ]
+    }
+  }
+}

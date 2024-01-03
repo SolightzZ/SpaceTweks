@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:xp_orb",
+      "materials": {
+        "default": "experience_orb",
+        "glow": "entity_beam_additive"
+      },
+      "textures": {
+        "default": "textures/entity/experience_orb"
+      },
+      "geometry": {
+        "default": "geometry.experience_orb"
+      },
+      "animations": {
+        "face_player": "animation.actor.billboard",
+        "glow": "animation.xp_orb.glow"
+      },
+      "scripts": {
+        "scale": "0.175",
+        "should_update_bones_and_effects_offscreen": true,
+        "pre_animation": [
+          "variable.u = Math.mod(query.texture_frame_index, 4) * 16.0 / 64.0;",
+          "variable.v = math.round(query.texture_frame_index / 4) * 16.0 / 64.0;"
+        ],
+        "animate": [
+          "face_player",
+          "glow"
+        ]
+      },
+      "particle_effects": {
+        "glow": "ra:xp_orb.glow"
+      },
+      "render_controllers": [
+        "controller.render.experience_orb",
+        "controller.render.experience_orb.glow"
+      ]
+    }
+  }
+}

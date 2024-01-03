@@ -1,9 +1,0 @@
-//This JSON was modified by AgentMindStorm (@agentms_). Please do not use this document without permission.
-{
-  "format_version": "1.16.100",
-  "minecraft:fog_settings": {
-    "description": {
-      "identifier": "java_aspects:stony_peaks_fog"
-    }
-  }
-}

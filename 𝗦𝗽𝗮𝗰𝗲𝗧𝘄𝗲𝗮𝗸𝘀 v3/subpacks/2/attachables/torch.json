@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:torch",
+      "materials": {
+        "default": "phantom"
+      },
+      "textures": {
+        "default": "textures/blocks/torch_on"
+      },
+      "geometry": {
+        "default": "geometry.torch"
+      },
+      "animations": {
+        "first_person": "animation.item.first_person"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.item" ]
+    }
+  }
+}

@@ -1,0 +1,353 @@
+/*File made by @CrisXolt.
+//(c) Don't use any code design without permission!*/
+{
+  "namespace": "CrisXolt_Brewing_Guide_textures",
+
+  "effect_instant_health": {
+    "type": "panel",
+    "layer": 10,
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ 18, 18 ],
+    "controls": [
+      {
+        "image": {
+          "type": "image",
+          "size": [ 18, 18 ],
+          "texture": "textures/brewing_guide_ui/effect_instant_health"
+        }
+      }
+    ]
+  },
+
+  "effect_instant_damage": {
+    "type": "panel",
+    "layer": 10,
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ 18, 18 ],
+    "controls": [
+      {
+        "image": {
+          "type": "image",
+          "size": [ 18, 18 ],
+          "texture": "textures/brewing_guide_ui/effect_instant_damage"
+        }
+      }
+    ]
+  },
+
+  "title_label_base": {
+    "type": "label",
+    "offset": [ 8, 5 ],
+    "layer": 8,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "default", 10 ],
+    "color": [ 0.31, 0.38, 0.43 ]
+  },
+
+  "line_color_1": {
+    "type": "panel",
+    "size": [ 110, "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "image_base": {
+          "type": "image",
+          "layer": 3,
+          "size": [ "100%", "100%" ],
+          "texture": "textures/brewing_guide_ui/line_color_1"
+        }
+      }
+    ]
+  },
+
+  "line_color_2": {
+    "type": "panel",
+    "size": [ 110, "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "image_base": {
+          "type": "image",
+          "layer": 3,
+          "size": [ "100%", "100%" ],
+          "texture": "textures/brewing_guide_ui/line_color_2"
+        }
+      }
+    ]
+  },
+
+  "main_cell_image": {
+    "type": "panel",
+    "size": [ 18, 18 ],
+    "controls": [
+      {
+        "texture@common.cell_image": {
+          "size": [ 20, 20 ],
+          "texture": "textures/brewing_guide_ui/main_cell_image",
+          "layer": 8
+        }
+      }
+    ]
+  },
+
+  "guide_bg": {
+    "type": "panel",
+    "size": [ 142, 166 ],
+    "controls": [
+      { 
+        "texture": {
+          "type": "image",
+          "layer": 1,
+          "texture": "textures/brewing_guide_ui/guide_bg",
+          "size": [ 142, 166 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ]
+  },
+
+  "center_fold": {
+    "type": "panel",
+    "size": [ 4, "100%" ],
+    "controls": [
+      { 
+        "center_fold_texture": {
+          "type": "image",
+          "layer": 0,
+          "texture": "textures/brewing_guide_ui/center_fold",
+          "size": [ 18, 166 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -7, 0 ]
+        }
+      }
+    ]
+  },
+
+  "scroll_box_active": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 3,
+          "texture": "textures/brewing_guide_ui/scroll_box_active",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 10, "100%" ]
+        }
+      }
+    ]
+  },
+
+  "normal_tab_front": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 4,
+          "texture": "textures/brewing_guide_ui/tab_normal_front",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "normal_tab_front_hover": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 4,
+          "texture": "textures/brewing_guide_ui/tab_normal_front_hover",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "normal_tab_back": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": -2,
+          "texture": "textures/brewing_guide_ui/tab_normal_back",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "normal_tab_back_hover": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": -2,
+          "texture": "textures/brewing_guide_ui/tab_normal_back_hover",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "splash_tab_front": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 4,
+          "texture": "textures/brewing_guide_ui/tab_splash_front",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "splash_tab_front_hover": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 4,
+          "texture": "textures/brewing_guide_ui/tab_splash_front_hover",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "splash_tab_back": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": -2,
+          "texture": "textures/brewing_guide_ui/tab_splash_back",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "splash_tab_back_hover": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": -2,
+          "texture": "textures/brewing_guide_ui/tab_splash_back_hover",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "lingering_tab_front": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 4,
+          "texture": "textures/brewing_guide_ui/tab_lingering_front",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "lingering_tab_front_hover": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": 4,
+          "texture": "textures/brewing_guide_ui/tab_lingering_front_hover",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "lingering_tab_back": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": -2,
+          "texture": "textures/brewing_guide_ui/tab_lingering_back",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  },
+
+  "lingering_tab_back_hover": {
+    "type": "panel",
+    "size": [ 26, 25 ],
+    "controls": [
+      {
+        "texture": {
+          "type": "image",
+          "layer": -2,
+          "texture": "textures/brewing_guide_ui/tab_lingering_back_hover",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 26, 32 ]
+        }
+      }
+    ]
+  }
+}

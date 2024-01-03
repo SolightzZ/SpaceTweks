@@ -1,0 +1,69 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:allay",
+			"materials": {
+				"default": "allay"
+			},
+			"textures": {
+				"default": "textures/entity/allay/allay",
+				"default2": "textures/entity/allay/allay2",
+				"default3": "textures/entity/allay/allay3",
+				"default4": "textures/entity/allay/allay4",
+				"default5": "textures/entity/allay/allay5",
+				"default6": "textures/entity/allay/allay6",
+				"default7": "textures/entity/allay/allay7",
+				"default8": "textures/entity/allay/allay8",
+				"default9": "textures/entity/allay/allay9",
+				"default10": "textures/entity/allay/allay10",
+				"default11": "textures/entity/allay/allay11",
+				"default12": "textures/entity/allay/allay12",
+				"default13": "textures/entity/allay/allay13",
+				"default14": "textures/entity/allay/allay14",
+				"default15": "textures/entity/allay/allay15",
+				"default16": "textures/entity/allay/allay16",
+				"default17": "textures/entity/allay/allay17",
+				"default18": "textures/entity/allay/allay18",
+				"default19": "textures/entity/allay/allay19",
+				"default20": "textures/entity/allay/allay20",
+				"default21": "textures/entity/allay/allay21",
+				"default22": "textures/entity/allay/allay22",
+				"default23": "textures/entity/allay/allay23",
+				"default24": "textures/entity/allay/allay24",
+				"default25": "textures/entity/allay/allay25",
+				"default26": "textures/entity/allay/allay26",
+				"default27": "textures/entity/allay/allay27",
+				"default28": "textures/entity/allay/allay28",
+				"default29": "textures/entity/allay/allay29",
+				"default30": "textures/entity/allay/allay30",
+				"default31": "textures/entity/allay/allay31",
+				"default32": "textures/entity/allay/allay32",
+				"default33": "textures/entity/allay/allay33"
+			},
+			"geometry": {
+				"default": "geometry.allay"
+      },
+      "scripts": {
+        "pre_animation": [
+		  "variable.Xvar = query.anim_time>0 ? variable.Xvar : Math.random(0,999);",
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+			"spawn_egg": {
+				"base_color": "#00daff",
+				"overlay_color": "#00adff"
+			},
+			"animations": {
+				"idle": "animation.allay.idle",
+				"fly": "animation.allay.fly",
+				"hold_item": "animation.allay.hold_item"
+			},
+			"animation_controllers": [
+				{ "general": "controller.animation.allay.general" },
+				{ "holding": "controller.animation.allay.holding" }
+			],
+			"render_controllers": [ "controller.render.allay" ]
+		}
+	}
+}

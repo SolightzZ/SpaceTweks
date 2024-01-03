@@ -1,0 +1,2513 @@
+{
+ "record.13": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.cat": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.chirp": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.wait": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.mellohi": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.stal": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.strad": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.11": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.ward": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.mall": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.blocks": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.far": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.pigstep": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.otherside": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+  "record.5": {
+    "max_distance": 256.0,
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom1",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom2",
+        "stream": true,
+        "weight": 2,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom4",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom5",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom6",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom7",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom8",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom9",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom10",
+        "stream": true,
+        "volume": 0.5
+      }
+    ]
+  },
+ "custom.record.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.11": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom11",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.12": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom12",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.13": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom13",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.14": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom14",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.15": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/default/records/custom15",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_13.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_13/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_cat.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_cat/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_chirp.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_chirp/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_wait.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_wait/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mellohi.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mellohi/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_stal.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_stal/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_strad.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_strad/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_11.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_11/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_ward.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_ward/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_mall.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_mall/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_blocks.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_blocks/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_far.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_far/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_pigstep.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_pigstep/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_otherside.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_otherside/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom1",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom2",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom3",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom4",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.5": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom5",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.6": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom6",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.7": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom7",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.8": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom8",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.9": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom9",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  },
+ "custom.record.disc_5.10": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sounds/music/custom/multitrack/record_5/custom10",
+        "stream": true,
+        "volume": 0.25
+      }
+    ]
+  }
+}
+
+
+
+
+
+///YourPersonalApplePie / AniDx on MCPEDL

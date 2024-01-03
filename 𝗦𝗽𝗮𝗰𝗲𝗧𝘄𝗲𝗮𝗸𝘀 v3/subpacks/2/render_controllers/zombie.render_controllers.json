@@ -1,0 +1,49 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.zombie": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.get_name == 'Drip Steve' ? Texture.default126 : (query.get_name == 'Drip Alex' ? Texture.default127 : (Array.Xskins[variable.Xvar]))"
+      ],
+      "arrays": {
+        "textures": {
+          "Array.Xskins": [
+            "Texture.default",
+            "Texture.default2",
+            "Texture.default3",
+            "Texture.default4",
+            "Texture.default5",
+            "Texture.default6",
+            "Texture.default7",
+            "Texture.default8",
+            "Texture.default9",
+            "Texture.default10",
+            "Texture.default51",
+            "Texture.default52",
+            "Texture.default61",
+            "Texture.default62",
+            "Texture.default71",
+            "Texture.default72",
+            "Texture.default73",
+            "Texture.default74",
+            "Texture.default75",
+            "Texture.default76",
+            "Texture.default77",
+            "Texture.default78",
+            "Texture.default79",
+            "Texture.default80",
+            "Texture.default121",
+            "Texture.default129",
+            "Texture.default130"
+          ]
+        }
+      }
+    }
+  }
+}

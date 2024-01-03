@@ -1,0 +1,1786 @@
+//----------------------------------------------------------
+//   Code modified by Vechrozilator
+//   For how to play UI of Banner Guide
+//----------------------------------------------------------
+
+{
+  "namespace": "how_to_play",
+
+  "how_to_play_screen@how_to_play_common.screen_base": {
+    "$selector_stack_panel": "how_to_play.selector_stack_panel",
+    "$section_content_panels": "how_to_play.section_content_panels",
+    "$header_safezone_control": "common_store.store_top_bar_filler",
+    "$header_bar_control": "common_store.store_top_bar",    
+    "$is_full_screen_layout": true
+  },
+
+  "selector_stack_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "orientation": "vertical",
+    "$default_selector_toggle_index": 2,
+    "controls": [
+      {
+        "how_to_play_selector_pane": {
+          "type": "stack_panel",
+          "controls": [
+            {
+              "padding_0": {
+                "type": "panel",
+                "size": [ 0, 6 ]
+              }
+            },
+            { "general_category@how_to_play_common.topic_category": { "$category": "general" } },
+            { "introduction_button@how_to_play.introduction_button": { "$toggle_group_forced_index": 0 } },
+            { "about_button@how_to_play.about_button": { "$toggle_group_forced_index": 1 } },
+            { "terms_of_use_button@how_to_play.terms_of_use_button": { "$toggle_group_forced_index": 2 } },
+
+            { "getting_started_category@how_to_play_common.topic_category": { "$category": "gettingStarted" } },
+            { "usage_button@how_to_play.usage_button": { "$toggle_group_forced_index": 3 } },
+            { "applying_pattern_button@how_to_play.applying_pattern_button": { "$toggle_group_forced_index": 4 } },
+            { "designing_guide_button@how_to_play.designing_guide_button": { "$toggle_group_forced_index": 5 } },
+
+            { "banner_designs_category@how_to_play_common.topic_category": { "$category": "bannerDesigns" } },
+            { "animals_button@how_to_play.animals_button": { "$toggle_group_forced_index": 6 } },
+            { "foods_button@how_to_play.foods_button": { "$toggle_group_forced_index": 7 } },
+            { "items_button@how_to_play.items_button": { "$toggle_group_forced_index": 8 } },
+            { "monster_button@how_to_play.monster_button": { "$toggle_group_forced_index": 9 } },
+            { "pokemon_button@how_to_play.pokemon_button": { "$toggle_group_forced_index": 10 } },
+            { "flag_button@how_to_play.flag_button": { "$toggle_group_forced_index": 11 } },
+            { "logo_button@how_to_play.logo_button": { "$toggle_group_forced_index": 12 } },
+            { "starwars_button@how_to_play.starwars_button": { "$toggle_group_forced_index": 13 } },
+            { "alphabet_button@how_to_play.alphabet_button": { "$toggle_group_forced_index": 14 } },
+            { "numbers_button@how_to_play.numbers_button": { "$toggle_group_forced_index": 15 } },
+
+            { "other_content_category@how_to_play_common.topic_category": { "$category": "otherContent" } },
+            { "other_guides_button@how_to_play.other_guides_button": { "$toggle_group_forced_index": 16 } },
+            { "other_resources_button@how_to_play.other_resources_button": { "$toggle_group_forced_index": 17 } },
+            {
+              "padding_1@how_to_play_common.padding": {
+                "size": [ 0, 10 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "section_content_panels": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100% - 5px", "100%c + 5px" ],
+    "offset": [ 2, 0 ],
+    "controls": [
+      {
+        "general_tips_sections": {
+          "type": "stack_panel",
+          "controls": [
+            {
+              "section_contents_header@how_to_play_common.section_contents_header": { }
+            },
+            { "introduction_section@how_to_play.introduction_section": { } },
+            { "about_section@how_to_play.about_section": { } },
+            { "terms_of_use_section@how_to_play.terms_of_use_section": { } },
+
+            { "usage_section@how_to_play.usage_section": { } },
+            { "applying_pattern_section@how_to_play.applying_pattern_section": { } },
+            { "designing_guide_section@how_to_play.designing_guide_section": { } },
+
+            { "animals_section@how_to_play.animals_section": { } },
+            { "foods_section@how_to_play.foods_section": { } },
+            { "items_section@how_to_play.items_section": { } },
+            { "monster_section@how_to_play.monster_section": { } },
+            { "pokemon_section@how_to_play.pokemon_section": { } },
+            { "flag_section@how_to_play.flag_section": { } },
+            { "logo_section@how_to_play.logo_section": { } },
+            { "starwars_section@how_to_play.starwars_section": { } },
+            { "alphabet_section@how_to_play.alphabet_section": { } },
+            { "numbers_circuit_section@how_to_play.numbers_section": { } },
+
+            { "other_guides_section@how_to_play.other_guides_section": { } },
+            { "other_resources_section@how_to_play.other_resources_section": { } },
+            {
+              "section_contents_footer@how_to_play_common.section_contents_footer": { }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "introduction_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "introduction"
+  },
+  "introduction_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "introduction_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "introduction.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "bg.introduction.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "bg.introduction.text1" }
+          }
+       ]
+    },
+  
+  "about_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "about"
+  },
+  "about_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "about_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "about.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "bg.about.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "bg.about.text1" } },
+       { "padding_2@how_to_play_common.padding": { } },
+       { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/about/aboutCreator" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph" : {
+         "$text": "bg.about.text2" }
+          }
+       ]
+    },
+  
+  "terms_of_use_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "termsOfuse"
+  },
+  "terms_of_use_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "termsOfuse_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+        { "header_0@how_to_play_common.header": {
+           "$text": "termsOfuse.header.title0" } },
+        { "padding_0@how_to_play_common.padding": { } },
+        { "paragraph_0@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text0" } },
+        { "padding_1@how_to_play_common.padding": { } },
+        { "paragraph_1@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text1" } },
+        { "padding_2@how_to_play_common.padding": { } },
+        { "header_1@how_to_play_common.header": {
+           "$text": "termsOfuse.header.title1" } },
+        { "padding_3@how_to_play_common.padding": { } },
+        { "paragraph_2@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text2" } },
+        { "padding_4@how_to_play_common.padding": { } },
+        { "paragraph_3@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text3" } },
+        { "padding_5@how_to_play_common.padding": { } },
+        { "paragraph_4@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text4" } },
+        { "padding_6@how_to_play_common.padding": { } },
+        { "paragraph_5@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text5" } },
+        { "padding_7@how_to_play_common.padding": { } },
+        { "paragraph_6@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text6" } },
+        { "padding_8@how_to_play_common.padding": { } },
+        { "paragraph_7@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text7" } },
+        { "padding_9@how_to_play_common.padding": { } },
+        { "paragraph_8@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text8" } },
+        { "padding_10@how_to_play_common.padding": { } },
+        { "header_2@how_to_play_common.header": {
+           "$text": "termsOfuse.header.title2" } },
+        { "padding_11@how_to_play_common.padding": { } },
+        { "paragraph_9@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text9" } },
+        { "padding_12@how_to_play_common.padding": { } },
+        { "paragraph_10@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text10" } },
+        { "paragraph_11@how_to_play_common.paragraph": {
+           "$text": "bg.termsOfuse.text11" }
+           }
+        ]
+     },
+     
+   "usage_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "usage"
+  },
+  "usage_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "usage_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "usage.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "bg.usage.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "bg.usage.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "usage.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "bg.usage.text2" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "bg.usage.text3" }
+       }
+     ]
+   },
+   
+   "applying_pattern_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "applyingPattern"
+  },
+  "applying_pattern_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "applyingPattern_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "applyingPattern.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/applying_pattern/loom_ui" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text2" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text3" } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text4" } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text5" } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text6" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text7" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text8" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "applyingPattern.header.title1" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text9" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text10" } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text11" } },
+      { "paragraph_12@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text12" } },
+      { "paragraph_13@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text13" } },
+      { "paragraph_14@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text14" } },
+      { "paragraph_15@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text15" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "applyingPattern.header.title2" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "paragraph_16@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text16" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_17@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text17" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_18@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text18" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "paragraph_19@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text19" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_20@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text20" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_21@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text21" } },
+      { "padding_17@how_to_play_common.padding": { } },
+      { "paragraph_22@how_to_play_common.paragraph": {
+         "$text": "bg.applyingPattern.text22" }
+       }
+     ]
+   },
+   
+   "designing_guide_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "designingGuide"
+  },
+  "designing_guide_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "designingGuide_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "designingGuide.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text2" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/designing_guide/banner_pattern" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "designingGuide.header.title1" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text3" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text4" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text5" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "bg.designingGuide.text6" }
+       }
+     ]
+   },
+
+   "animals_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "animals"
+  },
+  "animals_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "animals_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "animals.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/panda_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/panda_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "animals.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/chicken_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/chicken_steps" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "animals.header.title2" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/sheep_preview" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/sheep_steps" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "animals.header.title3" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/fox_preview" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/fox_steps" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "animals.header.title4" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/cow_preview" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/cow_steps" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "animals.header.title5" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/goldfish_preview" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/animals/goldfish_steps" }
+       }
+     ]
+   },
+
+   "foods_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "foods"
+  },
+  "foods_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "foods_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "foods.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/rice_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/rice_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "foods.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/pumpkin_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/pumpkin_steps" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "foods.header.title2" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/orange_preview" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/orange_steps" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "foods.header.title3" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/corn_preview" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/corn_steps" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "foods.header.title4" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/pear_preview" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/pear_steps" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "foods.header.title5" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/steaming_soup_preview" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/foods/steaming_soup_steps" }
+      
+       }
+     ]
+   },
+
+   "items_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "items"
+  },
+  "items_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "items_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "items.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/tnt_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/tnt_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "items.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/ordinary_mirror_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/ordinary_mirror_steps" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "items.header.title2" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/castle_mirror_preview" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/castle_mirror_steps" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "items.header.title3" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/anchor_preview" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/anchor_steps" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "items.header.title4" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/anvil_preview" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/anvil_steps" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "items.header.title5" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/fishing_pole_preview" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/items/fishing_pole_steps" }
+       }
+     ]
+   },
+   
+   "monster_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "monster"
+  },
+  "monster_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "monster_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "monster.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/monster/domo_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/monster/domo_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "monster.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/monster/guardian_preview" } },
+       { "padding_4@how_to_play_common.padding": { } },
+       { "paragraph_3@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_3@how_to_play_common.image": {
+          "texture": "textures/ui_img/monster/guardian_steps" } },
+       { "padding_5@how_to_play_common.padding": { } },
+       { "header_2@how_to_play_common.header": {
+          "$text": "monster.header.title2" } },
+       { "padding_6@how_to_play_common.padding": { } },
+       { "paragraph_4@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/monster/zombie_pigman_preview" } },
+       { "padding_7@how_to_play_common.padding": { } },
+       { "paragraph_5@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_5@how_to_play_common.image": {
+          "texture": "textures/ui_img/monster/zombie_pigman_steps" } },
+       { "padding_8@how_to_play_common.padding": { } },
+       { "header_3@how_to_play_common.header": {
+          "$text": "monster.header.title3" } },
+       { "padding_9@how_to_play_common.padding": { } },
+       { "paragraph_6@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/monster/enderman_preview" } },
+       { "padding_10@how_to_play_common.padding": { } },
+       { "paragraph_7@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_7@how_to_play_common.image": {
+          "texture": "textures/ui_img/monster/enderman_steps" } },
+       { "padding_11@how_to_play_common.padding": { } },
+       { "header_4@how_to_play_common.header": {
+          "$text": "monster.header.title4" } },
+       { "padding_12@how_to_play_common.padding": { } },
+       { "paragraph_8@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/monster/sad_creeper_preview" } },
+       { "padding_13@how_to_play_common.padding": { } },
+       { "paragraph_9@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_9@how_to_play_common.image": {
+          "texture": "textures/ui_img/monster/sad_creeper_steps" } },
+       { "padding_14@how_to_play_common.padding": { } },
+       { "header_5@how_to_play_common.header": {
+          "$text": "monster.header.title5" } },
+       { "padding_15@how_to_play_common.padding": { } },
+       { "paragraph_10@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/monster/dragon_preview" } },
+       { "padding_16@how_to_play_common.padding": { } },
+       { "paragraph_11@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_11@how_to_play_common.image": {
+          "texture": "textures/ui_img/monster/dragon_steps" }
+       }
+     ]
+   },
+   
+   "pokemon_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "pokemon"
+  },
+  "pokemon_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "pokemon_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "pokemon.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/pikachu_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/pikachu_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "pokemon.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/diglet_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/diglet_steps" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "pokemon.header.title2" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/pokeball_preview" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/pokeball_steps" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "pokemon.header.title3" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/gyrados_preview" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/gyrados_steps" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "pokemon.header.title4" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/swampert_preview" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/swampert_steps" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "pokemon.header.title5" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/zapdos_preview" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/pokemon/zapdos_steps" }
+       }
+     ]
+   },
+   
+   "flag_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "flag"
+  },
+  "flag_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "flag_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "flag.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/flag/america_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/flag/america_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "flag.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/flag/brazil_preview" } },
+       { "padding_4@how_to_play_common.padding": { } },
+       { "paragraph_3@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_3@how_to_play_common.image": {
+          "texture": "textures/ui_img/flag/brazil_steps" } },
+       { "padding_5@how_to_play_common.padding": { } },
+       { "header_2@how_to_play_common.header": {
+          "$text": "flag.header.title2" } },
+       { "padding_6@how_to_play_common.padding": { } },
+       { "paragraph_4@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/flag/czech_republic_preview" } },
+       { "padding_7@how_to_play_common.padding": { } },
+       { "paragraph_5@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_5@how_to_play_common.image": {
+          "texture": "textures/ui_img/flag/czech_republic_steps" } },
+       { "padding_8@how_to_play_common.padding": { } },
+       { "header_3@how_to_play_common.header": {
+          "$text": "flag.header.title3" } },
+       { "padding_9@how_to_play_common.padding": { } },
+       { "paragraph_6@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/flag/india_preview" } },
+       { "padding_10@how_to_play_common.padding": { } },
+       { "paragraph_7@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_7@how_to_play_common.image": {
+          "texture": "textures/ui_img/flag/india_steps" } },
+       { "padding_11@how_to_play_common.padding": { } },
+       { "header_4@how_to_play_common.header": {
+          "$text": "flag.header.title4" } },
+       { "padding_12@how_to_play_common.padding": { } },
+       { "paragraph_8@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/flag/tanzania_preview" } },
+       { "padding_13@how_to_play_common.padding": { } },
+       { "paragraph_9@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_9@how_to_play_common.image": {
+          "texture": "textures/ui_img/flag/tanzania_steps" } },
+       { "padding_14@how_to_play_common.padding": { } },
+       { "header_5@how_to_play_common.header": {
+          "$text": "flag.header.title5" } },
+       { "padding_15@how_to_play_common.padding": { } },
+       { "paragraph_10@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/flag/united_kingdom_preview" } },
+       { "padding_16@how_to_play_common.padding": { } },
+       { "paragraph_11@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_11@how_to_play_common.image": {
+          "texture": "textures/ui_img/flag/united_kingdom_steps" }
+       }
+     ]
+   },
+   
+   "logo_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "logo"
+  },
+  "logo_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "logo_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "logo.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/logo/facebook_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/logo/facebook_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "logo.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/logo/twitch_preview" } },
+       { "padding_4@how_to_play_common.padding": { } },
+       { "paragraph_3@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_3@how_to_play_common.image": {
+          "texture": "textures/ui_img/logo/twitch_steps" } },
+       { "padding_5@how_to_play_common.padding": { } },
+       { "header_2@how_to_play_common.header": {
+          "$text": "logo.header.title2" } },
+       { "padding_6@how_to_play_common.padding": { } },
+       { "paragraph_4@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/logo/nuclear_preview" } },
+       { "padding_7@how_to_play_common.padding": { } },
+       { "paragraph_5@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_5@how_to_play_common.image": {
+          "texture": "textures/ui_img/logo/nuclear_steps" } },
+       { "padding_8@how_to_play_common.padding": { } },
+       { "header_3@how_to_play_common.header": {
+          "$text": "logo.header.title3" } },
+       { "padding_9@how_to_play_common.padding": { } },
+       { "paragraph_6@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/logo/no_smoking_sign_preview" } },
+       { "padding_10@how_to_play_common.padding": { } },
+       { "paragraph_7@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_7@how_to_play_common.image": {
+          "texture": "textures/ui_img/logo/no_smoking_sign_steps" } },
+       { "padding_11@how_to_play_common.padding": { } },
+       { "header_4@how_to_play_common.header": {
+          "$text": "logo.header.title4" } },
+       { "padding_12@how_to_play_common.padding": { } },
+       { "paragraph_8@how_to_play_common.paragraph": {
+          "$text": "preview.text" } },
+       { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/logo/pepsi_preview" } },
+       { "padding_13@how_to_play_common.padding": { } },
+       { "paragraph_9@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_9@how_to_play_common.image": {
+          "texture": "textures/ui_img/logo/pepsi_steps" }
+        }
+      ]
+    },
+    
+    "starwars_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "starwars"
+  },
+  "starwars_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "starwars_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "starwars.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/starwars/lightsaber_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/starwars/lightsaber_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "starwars.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/starwars/lightsaber2_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+          "texture": "textures/ui_img/starwars/lightsaber2_steps" } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "starwars.header.title3" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/starwars/death_revan_preview" } },
+       { "padding_6@how_to_play_common.padding": { } },
+       { "paragraph_5@how_to_play_common.paragraph": {
+          "$text": "steps.text" } },
+       { "image_5@how_to_play_common.image": {
+          "texture": "textures/ui_img/starwars/death_revan_steps" }
+       }
+     ]
+  },
+
+   "alphabet_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "alphabet"
+  },
+  "alphabet_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "alphabet_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "alphabet.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_a_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_a_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "alphabet.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_b_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_b_steps" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "alphabet.header.title2" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_c_preview" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_c_steps" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "alphabet.header.title3" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_d_preview" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_d_steps" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "alphabet.header.title4" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_e_preview" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_e_steps" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "alphabet.header.title5" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_f_preview" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_f_steps" } },
+      { "padding_17@how_to_play_common.padding": { } },
+      { "header_6@how_to_play_common.header": {
+         "$text": "alphabet.header.title6" } },
+      { "padding_18@how_to_play_common.padding": { } },
+      { "paragraph_12@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_12@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_g_preview" } },
+      { "padding_19@how_to_play_common.padding": { } },
+      { "paragraph_13@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_13@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_g_steps" } },
+      { "padding_20@how_to_play_common.padding": { } },
+      { "header_7@how_to_play_common.header": {
+         "$text": "alphabet.header.title7" } },
+      { "padding_21@how_to_play_common.padding": { } },
+      { "paragraph_14@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_14@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_h_preview" } },
+      { "padding_22@how_to_play_common.padding": { } },
+      { "paragraph_15@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_15@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_h_steps" } },
+      { "padding_23@how_to_play_common.padding": { } },
+      { "header_8@how_to_play_common.header": {
+         "$text": "alphabet.header.title8" } },
+      { "padding_24@how_to_play_common.padding": { } },
+      { "paragraph_16@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_16@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_i_preview" } },
+      { "padding_25@how_to_play_common.padding": { } },
+      { "paragraph_17@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_17@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_i_steps" } },
+      { "padding_26@how_to_play_common.padding": { } },
+      { "header_9@how_to_play_common.header": {
+         "$text": "alphabet.header.title9" } },
+      { "padding_27@how_to_play_common.padding": { } },
+      { "paragraph_18@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_18@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_j_preview" } },
+      { "padding_28@how_to_play_common.padding": { } },
+      { "paragraph_19@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_19@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_j_steps" } },
+      { "padding_29@how_to_play_common.padding": { } },
+      { "header_10@how_to_play_common.header": {
+         "$text": "alphabet.header.title10" } },
+      { "padding_30@how_to_play_common.padding": { } },
+      { "paragraph_20@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_20@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_k_preview" } },
+      { "padding_31@how_to_play_common.padding": { } },
+      { "paragraph_21@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_21@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_k_steps" } },
+      { "padding_32@how_to_play_common.padding": { } },
+      { "header_11@how_to_play_common.header": {
+         "$text": "alphabet.header.title11" } },
+      { "padding_33@how_to_play_common.padding": { } },
+      { "paragraph_22@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_22@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_l_preview" } },
+      { "padding_34@how_to_play_common.padding": { } },
+      { "paragraph_23@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_23@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_l_steps" } },
+      { "padding_35@how_to_play_common.padding": { } },
+      { "header_12@how_to_play_common.header": {
+         "$text": "alphabet.header.title12" } },
+      { "padding_36@how_to_play_common.padding": { } },
+      { "paragraph_24@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_24@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_m_preview" } },
+      { "padding_37@how_to_play_common.padding": { } },
+      { "paragraph_25@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_25@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_m_steps" } },
+      { "padding_38@how_to_play_common.padding": { } },
+      { "header_13@how_to_play_common.header": {
+         "$text": "alphabet.header.title13" } },
+      { "padding_39@how_to_play_common.padding": { } },
+      { "paragraph_26@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_26@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_n_preview" } },
+      { "padding_40@how_to_play_common.padding": { } },
+      { "paragraph_27@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_27@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_n_steps" } },
+      { "padding_41@how_to_play_common.padding": { } },
+      { "header_14@how_to_play_common.header": {
+         "$text": "alphabet.header.title14" } },
+      { "padding_42@how_to_play_common.padding": { } },
+      { "paragraph_28@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_28@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_o_preview" } },
+      { "padding_43@how_to_play_common.padding": { } },
+      { "paragraph_29@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_29@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_o_steps" } },
+      { "padding_44@how_to_play_common.padding": { } },
+      { "header_15@how_to_play_common.header": {
+         "$text": "alphabet.header.title15" } },
+      { "padding_45@how_to_play_common.padding": { } },
+      { "paragraph_30@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_30@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_p_preview" } },
+      { "padding_46@how_to_play_common.padding": { } },
+      { "paragraph_31@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_31@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_p_steps" } },
+      { "padding_47@how_to_play_common.padding": { } },
+      { "header_16@how_to_play_common.header": {
+         "$text": "alphabet.header.title16" } },
+      { "padding_48@how_to_play_common.padding": { } },
+      { "paragraph_32@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_32@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_q_preview" } },
+      { "padding_49@how_to_play_common.padding": { } },
+      { "paragraph_33@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_33@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_q_steps" } },
+      { "padding_50@how_to_play_common.padding": { } },
+      { "header_17@how_to_play_common.header": {
+         "$text": "alphabet.header.title17" } },
+      { "padding_51@how_to_play_common.padding": { } },
+      { "paragraph_34@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_34@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_r_preview" } },
+      { "padding_52@how_to_play_common.padding": { } },
+      { "paragraph_35@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_35@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_r_steps" } },
+      { "padding_53@how_to_play_common.padding": { } },
+      { "header_18@how_to_play_common.header": {
+         "$text": "alphabet.header.title18" } },
+      { "padding_54@how_to_play_common.padding": { } },
+      { "paragraph_36@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_36@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_s_preview" } },
+      { "padding_55@how_to_play_common.padding": { } },
+      { "paragraph_37@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_37@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_s_steps" } },
+      { "padding_56@how_to_play_common.padding": { } },
+      { "header_19@how_to_play_common.header": {
+         "$text": "alphabet.header.title19" } },
+      { "padding_57@how_to_play_common.padding": { } },
+      { "paragraph_38@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_38@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_t_preview" } },
+      { "padding_58@how_to_play_common.padding": { } },
+      { "paragraph_39@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_39@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_t_steps" } },
+      
+      { "header_20@how_to_play_common.header": {
+         "$text": "alphabet.header.title20" } },
+      { "padding_59@how_to_play_common.padding": { } },
+      { "paragraph_40@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_40@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_u_preview" } },
+      { "padding_60@how_to_play_common.padding": { } },
+      { "paragraph_41@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_41@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_u_steps" } },
+      { "padding_61@how_to_play_common.padding": { } },
+      { "header_21@how_to_play_common.header": {
+         "$text": "alphabet.header.title21" } },
+      { "padding_62@how_to_play_common.padding": { } },
+      { "paragraph_42@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_42@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_v_preview" } },
+      { "padding_63@how_to_play_common.padding": { } },
+      { "paragraph_43@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_43@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_v_steps" } },
+      { "padding_64@how_to_play_common.padding": { } },
+      { "header_22@how_to_play_common.header": {
+         "$text": "alphabet.header.title22" } },
+      { "padding_65@how_to_play_common.padding": { } },
+      { "paragraph_44@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_44@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_w_preview" } },
+      { "padding_66@how_to_play_common.padding": { } },
+      { "paragraph_45@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_45@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_w_steps" } },
+      { "padding_67@how_to_play_common.padding": { } },
+      { "header_23@how_to_play_common.header": {
+         "$text": "alphabet.header.title23" } },
+      { "padding_68@how_to_play_common.padding": { } },
+      { "paragraph_46@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_46@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_x_preview" } },
+      { "padding_69@how_to_play_common.padding": { } },
+      { "paragraph_47@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_47@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_x_steps" } },
+      { "padding_70@how_to_play_common.padding": { } },
+      { "header_24@how_to_play_common.header": {
+         "$text": "alphabet.header.title24" } },
+      { "padding_71@how_to_play_common.padding": { } },
+      { "paragraph_48@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_48@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_y_preview" } },
+      { "padding_72@how_to_play_common.padding": { } },
+      { "paragraph_49@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_49@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_y_steps" } },
+      { "padding_73@how_to_play_common.padding": { } },
+      { "header_25@how_to_play_common.header": {
+         "$text": "alphabet.header.title25" } },
+      { "padding_74@how_to_play_common.padding": { } },
+      { "paragraph_50@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_50@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_z_preview" } },
+      { "padding_75@how_to_play_common.padding": { } },
+      { "paragraph_51@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_51@how_to_play_common.image": {
+         "texture": "textures/ui_img/alphabet/letter_z_steps" }
+       }
+     ]
+   },
+
+   "numbers_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "numbers"
+  },
+  "numbers_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "numbers_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "numbers.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_0_preview" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_0_steps" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "numbers.header.title1" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_1_preview" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_1_steps" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "numbers.header.title2" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_2_preview" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_2_steps" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "numbers.header.title3" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_3_preview" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_3_steps" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "numbers.header.title4" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_4_preview" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_4_steps" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "numbers.header.title5" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_5_preview" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_5_steps" } },
+      { "padding_17@how_to_play_common.padding": { } },
+      { "header_6@how_to_play_common.header": {
+         "$text": "numbers.header.title6" } },
+      { "padding_18@how_to_play_common.padding": { } },
+      { "paragraph_12@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_12@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_6_preview" } },
+      { "padding_19@how_to_play_common.padding": { } },
+      { "paragraph_13@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_13@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_6_steps" } },
+      { "padding_20@how_to_play_common.padding": { } },
+      { "header_7@how_to_play_common.header": {
+         "$text": "numbers.header.title7" } },
+      { "padding_21@how_to_play_common.padding": { } },
+      { "paragraph_14@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_14@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_7_preview" } },
+      { "padding_22@how_to_play_common.padding": { } },
+      { "paragraph_15@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_15@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_7_steps" } },
+      { "padding_23@how_to_play_common.padding": { } },
+      { "header_8@how_to_play_common.header": {
+         "$text": "numbers.header.title8" } },
+      { "padding_24@how_to_play_common.padding": { } },
+      { "paragraph_16@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_16@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_8_preview" } },
+      { "padding_25@how_to_play_common.padding": { } },
+      { "paragraph_17@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_17@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_8_steps" } },
+      { "padding_26@how_to_play_common.padding": { } },
+      { "header_9@how_to_play_common.header": {
+         "$text": "numbers.header.title9" } },
+      { "padding_27@how_to_play_common.padding": { } },
+      { "paragraph_18@how_to_play_common.paragraph": {
+         "$text": "preview.text" } },
+      { "image_18@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_9_preview" } },
+      { "padding_28@how_to_play_common.padding": { } },
+      { "paragraph_19@how_to_play_common.paragraph": {
+         "$text": "steps.text" } },
+      { "image_19@how_to_play_common.image": {
+         "texture": "textures/ui_img/numbers/number_9_steps" }
+       }
+     ]
+   },
+
+   "other_guides_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "otherGuides"
+  },
+  "other_guides_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "otherGuides_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "header_0@how_to_play_common.header": {
+         "$text": "otherGuides.header.title0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text2" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_guides/redstone_guide" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "otherGuides.header.title1" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text3" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_3a@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text2" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_guides/chemistry_guide" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "otherGuides.header.title2" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text4" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_4a@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text2" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_guides/brewing_guide" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "otherGuides.header.title3" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text5" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text6" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text7" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "bg.otherGuides.text8" }
+       }
+     ]
+   },
+   
+   "other_resources_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "otherResources"
+  },
+  "other_resources_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "otherResources_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "otherResources.description.text" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "header_0@how_to_play_common.header": {
+         "$text": "otherResources.workingTV.title" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "otherResources.workingTV.text" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/working_tv" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "otherResources.camouflageDoor.title" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "otherResources.camouflageDoor.text" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/camouflage_door" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "otherResources.ghostBlock.title" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "otherResources.ghostBlock.text" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/ghost_block" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "otherResources.modernBlocks.title" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "otherResources.modernBlocks.text" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/modern_blocks" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+         "$text": "otherResources.uncraftable.title" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "otherResources.uncraftable.text" } },
+      { "padding_14@how_to_play_common.padding": { } },
+      { "image_4@how_to_play_common.image": {
+          "texture": "textures/ui_img/other_resources/uncraftable" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "otherResources.simplePack.title" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "otherResources.simplePack.text" } },
+      { "padding_17@how_to_play_common.padding": { } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/simple_pack" } },
+      { "padding_18@how_to_play_common.padding": { } },
+      { "header_6@how_to_play_common.header": {
+         "$text": "otherResources.trollParkour.title" } },
+      { "padding_19@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "otherResources.trollParkour.text" } },
+      { "padding_20@how_to_play_common.padding": { } },
+      { "image_6@how_to_play_common.image": {
+        "texture": "textures/ui_img/other_resources/troll_parkour" } },
+      { "padding_21@how_to_play_common.padding": { } },
+      { "header_7@how_to_play_common.header": {
+          "$text": "otherResources.escapeRoom.title" } },
+      { "padding_22@how_to_play_common.padding": {} },
+      { "paragraph_8@how_to_play_common.paragraph": {
+          "$text": "otherResources.escapeRoom.text" } },
+      { "padding_23@how_to_play_common.padding": { }},
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/escape_room" } },
+      { "padding_24@how_to_play_common.padding": { } },
+      { "header_8@how_to_play_common.header": {
+         "$text": "otherResources.4blocks1word.title" } },
+      { "padding_25@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "otherResources.4blocks1word.text" } },
+      { "padding_26@how_to_play_common.padding": { } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/4blocks1word" } },
+      { "padding_27@how_to_play_common.padding": { } },
+      { "header_9@how_to_play_common.header": {
+         "$text": "otherResources.15waystodie.title" } },
+      { "padding_28@how_to_play_common.padding": { } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "otherResources.15waystodie.text" } },
+      { "padding_29@how_to_play_common.padding": { } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/15wtd" } },
+      { "padding_30@how_to_play_common.padding": { } },
+      { "header_10@how_to_play_common.header": {
+         "$text": "otherResources.copyTheBanner.title" } },
+      { "padding_31@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "otherResources.copyTheBanner.text" } },
+      { "padding_32@how_to_play_common.padding": { } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/copy_the_banners" }
+       }
+     ]
+   }
+ }

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.allay": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.get_name == 'Sculk' ? Texture.default2 :(query.get_name == 'Axolotl' ? Texture.default3 :(query.get_name == 'Jimmy' ? Texture.default4 :(query.get_name == 'Maid' ? Texture.default5 :(query.get_name == 'Withered' ? Texture.default6 :(query.get_name == 'Fluffy' ? Texture.default7 :(query.get_name == 'Lavender' ? Texture.default8 :(query.get_name == 'Legends' ? Texture.default9 :(query.get_name == 'Mango' ? Texture.default10 :(query.get_name == 'Scorch' ? Texture.default11 :(query.get_name == 'Ghostly' ? Texture.default12 :(query.get_name == 'IDK' ? Texture.default13 :(query.get_name == 'Void' ? Texture.default14 :(query.get_name == 'Mint' ? Texture.default15 :(query.get_name == 'Suspicious' ? Texture.default16 :(query.get_name == '[[Big Shot]]' ? Texture.default17 :(query.get_name == 'Doom' ? Texture.default18 :(query.get_name == 'IDK2' ? Texture.default19 :(query.get_name == 'Cotton Candy' ? Texture.default20 :(query.get_name == 'Ink' ? Texture.default21 :(query.get_name == 'Neo' ? Texture.default22 :(query.get_name == 'Grapefruit' ? Texture.default23 :(query.get_name == 'Butter' ? Texture.default24 :(query.get_name == 'Twilight' ? Texture.default25 :(query.get_name == 'Crimson' ? Texture.default26 :(query.get_name == 'Warped' ? Texture.default27 :(query.get_name == 'Aubergine' ? Texture.default28 :(query.get_name == 'Sunset' ? Texture.default29 :(query.get_name == '0zg' ? Texture.default30 :(query.get_name == 'Doge' ? Texture.default31 :(query.get_name == 'Gentle' ? Texture.default32 :(query.get_name == 'Sininho' ? Texture.default33 :(Texture.default))))))))))))))))))))))))))))))))"
+      ],
+      "ignore_lighting": true
+    }
+  }
+}

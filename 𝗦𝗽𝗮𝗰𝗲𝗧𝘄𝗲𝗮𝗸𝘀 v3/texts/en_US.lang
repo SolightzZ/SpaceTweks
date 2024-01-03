@@ -1,0 +1,328 @@
+bt.bg.splash.potion=Splash Potion
+bt.bg.lingering.potion=Lingering Potion
+bt.bg.extended.potion=Extended Potion
+bt.bg.level_2.potion=Level II Potion
+bt.bg.effect.potion=Potion Effect
+
+resourcePack.subpackResolution=%s
+map.position=%s %s %s
+toggle.quickloot=Quick Loot
+options.guiScale.optionName=GUI Scale
+accessibility.chat.howtoopen=§dSpace§fTweaks §7RainbowSoap Update [§dv3+§f] §7thanks for download
+options.renderDistanceRecommendedFormat=%s chunks
+
+menu.howToPlay=Banner Guide
+menu.howToPlay.generalMessage=Design your banners with numerous patterns with this Guide
+preview.text=Preview:
+steps.text=Steps:
+
+##Sections & Category
+
+howtoplay.changelog=Changelog
+
+howtoplay.category.general=General
+howtoplay.introduction=Introduction
+howtoplay.about=About
+howtoplay.termsOfuse=Terms Of Use
+
+howtoplay.category.gettingStarted=Getting Started
+howtoplay.usage=Usage
+howtoplay.applyingPattern=Applying Pattern
+howtoplay.designingGuide=Designing Guide
+
+howtoplay.category.bannerDesigns=Banner Designs
+howtoplay.animals=Animals
+howtoplay.foods=Foods
+howtoplay.items=Items
+howtoplay.monster=Monster
+howtoplay.pokemon=Pokemon
+howtoplay.flag=Flags
+howtoplay.logo=Logo
+howtoplay.starwars=Starwars
+howtoplay.alphabet=Alphabet
+howtoplay.numbers=Numbers
+
+howtoplay.category.otherContent=Other Content
+howtoplay.otherGuides=Other Guides
+howtoplay.otherResources=Other Resources
+
+##Title
+
+howtoplay.changelog.title=Version 1.0.1
+
+howtoplay.introduction.title=Introduction
+howtoplay.about.title=About
+howtoplay.termsOfuse.title=Terms Of Use
+
+howtoplay.usage.title=Getting Started: Usage
+howtoplay.applyingPattern.title=Getting Started: Applying Pattern
+howtoplay.designingGuide.title=Getting Started: Designing Guide
+
+howtoplay.animals.title=Banner Designs: Animals
+howtoplay.foods.title=Banner Designs: Foods
+howtoplay.items.title=Banner Designs: Items
+howtoplay.monster.title=Banner Designs: Monster
+howtoplay.pokemon.title=Banner Designs: Pokemon
+howtoplay.flag.title=Banner Designs: Flags
+howtoplay.logo.title=Banner Designs: Logo
+howtoplay.starwars.title=Banner Designs: Starwars
+howtoplay.alphabet.title=Banner Designs: Alphabet
+howtoplay.numbers.title=Banner Designs: Numbers
+
+howtoplay.otherGuides.title=Other Content: Other Guides
+howtoplay.otherResources.title=Other Content: Other Resources
+
+##Introduction
+
+introduction.header.title0=Welcome To Banner Guide
+
+bg.introduction.text0=Banners, are tall decorative blocks, featuring a field that is highly customizable using dyes. This guide will teach you on how to customize your banner, adding layers in Banner to make your own banner design
+bg.introduction.text1=This guide explains how to design banner it also helps you how to use loom, crafting banner pattern and more about banner. It provide banner designs example with pictures to let you easily do it in your own.
+
+##About
+
+about.header.title0=About The Pack
+about.header.title1=About Creator
+
+bg.about.text0=This guide was made to help you make a different kinds of banner design.
+bg.about.text1=All information, textures, modifying command for UI are all provided by Vechrozilator. You don't have rights to reupload this guide in any of the sites.
+bg.about.text2=For suggestions reporting bugs you can tell me via Facebook and/or Twitter. You can also drop your comment in MCPEDL.
+
+##Terms Of Use
+
+termsOfuse.header.title0=Terms Of Use
+termsOfuse.header.title1=Restriction and Limitation
+termsOfuse.header.title2=Copyright/Trademark Information
+
+bg.termsOfuse.text0=The §eBanner Guide§r is uploaded only at §aMCPEDL§r (mcpedl.com) and in my §bOfficial Discord Server§r is a copyrighted work belonging to §bVechrozilator§r. This addon is free to download and use by everyone.
+bg.termsOfuse.text1=These §6Terms Of Use§r described the legally using of this Addon. BY USING THIS ADDON YOU ARE BEING COMPLIANT THAT THESE TERMS and you represent that you have the authority and capacity to enter into these Terms. If you disagree with all of the provision of these terms, do not use the add-on.
+bg.termsOfuse.text2=The rights approved to you in these Terms are subject to the following restrictions:
+bg.termsOfuse.text3=-You are allowed to make video about this add-on but you should provide the download link from §aMCPEDL§r and not by your own link
+bg.termsOfuse.text4=-You shall not sell, rent, lease, transfer, assign, distribute, host, or otherwise commercially exploit the Addon
+bg.termsOfuse.text5=-You shall not change, make derivative works of, disassemble, reverse compile or reverse engineer any part of the Addon unless your using it for personal use
+bg.termsOfuse.text6=-You shall not access the Addon in order to reupload or repost it into another website or apps, or repost with your own custom links
+bg.termsOfuse.text7=-And as expressly stated herein, no texture of the Addon may be copied or use, reproduced, distributed, republished, reuse in your own project, displayed, posted or transmitted in any form or by any means unless otherwise indicated, any future release, update, or other addition to functionality of the Addon shall be subject to these Terms.
+bg.termsOfuse.text8=All copyright and other proprietary notices on the Add-on must be retained on all copies thereof.
+bg.termsOfuse.text9=Copyright ©. All rights reserved. All icons, images and textures displayed on this Add-on are my property. You have permitted to use them and add in your own project must use proper credit.
+bg.termsOfuse.text10=Contact Information
+bg.termsOfuse.text11=Email: vechrozilator@gmail.com
+
+##Usage
+
+usage.header.title0=About Banner
+usage.header.title1=Usage
+bg.usage.text0=Banners, are tall decorative blocks, featuring a field that is highly customizable using dyes. There are 16 colored blank banners, and numerous patterns each available in each of the 16 colors. A banner can feature up to 6 different patterns. The top layer of a banner (or the last pattern added) can be washed off by using it on a cauldron containing water.
+bg.usage.text1=A banner may have up to six patterns, which are overlaid with the last-crafted on top. Any color banner can be used, the color will just be overlayed with the pattern.
+bg.usage.text2=A banners can be use as a decoration to your house, buildings, town, village, roads and any other structure you might like.
+bg.usage.text3=Banners are customizable so it can also be use as labeling the areas it can also be use as symbolism like symbolizing the area with the design you made or can be your trademark in the game for multiplayer purpose. Find out any other creative use of this banner by maximizing your imagination throughout the game.
+
+##Applying Pattern
+
+applyingPattern.header.title0=About the Loom
+applyingPattern.header.title1=Banner Pattern
+applyingPattern.header.title2=How to Apply Pattern in Banner?
+
+bg.applyingPattern.text0=Loom is the main item you should need in designing banner, it is use to apply pattern in your banner. Open the loom to see its UI, the picture below shows the UI of loom.
+bg.applyingPattern.text1=At the left side of the UI, these are different banner patterns you can choose either of those patterns you want to apply in your banner. Select one of these to choose a pattern you want to apply in your banner.
+bg.applyingPattern.text2=At the right side above the inventroy, you can see the three different slots and 1 separated slot (output slot). These slots have different uses explained below.
+bg.applyingPattern.text3=-The first slot (slot with banner icon) is where you should place your banner, a banner place here is the banner you want have pattern/s.
+bg.applyingPattern.text4=-At the second slot is where you should place your dye, a color of the dye is place here will become the color of the pattern selected in the loom when its apply in banner.
+bg.applyingPattern.text5=-At the third slot is for adding another patterns (it can be emptied or not), here where you should place your "Banner Pattern" to access 6 another different pattern that the loom hasn't. These are the special pattern.
+bg.applyingPattern.text6=-The seprated slot is Output slot, after you design your banner here where you should get the banner and move it in your inventory.
+bg.applyingPattern.text7=The image at the side of Output slot is the preview of banner design, this is what banner looks like with the pattern you selected and a color of the dye you use.
+bg.applyingPattern.text8=Special pattern are not include in the loom, to have them simply craft Banner Pattern and add them in the third slot then it will add adittional option of pattern in the loom. It can be also automatically place in slot when you select special pattern in the loom, this happen when you already have the Banner Pattern of that pattern in your inventory.
+bg.applyingPattern.text9=There are 6 different special pattern of banner that can only access if you have Banner Pattern these are:
+bg.applyingPattern.text10=-Creeper Charged: A creeper's face pattern can be crafted with creeper head and 1 paper
+bg.applyingPattern.text11=-Flower Charged: A flower design pattern can be crafted with 1 Oxeye daisy and 1 paper
+bg.applyingPattern.text12=-Skull Charged: A skull design pattern can be crafted with wither head and a paper
+bg.applyingPattern.text13=-Field Masoned: A brick design patter can be crafted with 1 brick and a paper
+bg.applyingPattern.text14=-Thing: A Mojang logo pattern can be crafted with 1 enchanted golden apple and a paper
+bg.applyingPattern.text15=-Indented Bordure: A pattern border that like wave design in edge can be crafted with vines and a paper
+bg.applyingPattern.text16=Now you're going to learn how to apply pattern in banner using the loom.
+bg.applyingPattern.text17=STEP 1: Place your banner in the first slot place any color of banner you desired, the color of the banner is the background color of the banner design.
+bg.applyingPattern.text18=STEP 2: Choose your desired pattern and place a dye in 2nd slot, a color of the dye will be the color of the pattern you selected and it will print your banner. If you want special pattern use Banner Pattern and place it in third slot. You can see the preview image of banner in the loom.
+bg.applyingPattern.text19=STEP 3: Move your banner to your inventory from Output slot.
+bg.applyingPattern.text20=STEP 4: If you want to add another layer of pattern in that banner get that and move it in first slot basically use that banner again then repeat the steps until you've finished it.
+bg.applyingPattern.text21=STEP 5: If you want to remove the last layer of pattern applied in your banner wash it in a cauldron contain with water and the last layer applied will removed. You can do this if you think you've applied the wrong pattern.
+bg.applyingPattern.text22=NOTE: Take note that you can only apply pattern upto 6 layers.
+
+##Designing Guide
+
+designingGuide.header.title0=Designing Guide
+designingGuide.header.title1=Copying Banner Design
+
+bg.designingGuide.text0=The picture in the steps of designing banner are provided in each banner design, the numbers are the sequence of applying pattern in banner using the loom.
+bg.designingGuide.text1=To know what color of banner you should need, look at the preview image of the banner design then you can see what color of banner is needed.
+bg.designingGuide.text2=Banner Pattern have the same texture that's why in preview image if you see banner pattern it has small icon (creeper head, wither head, oxeye daisy, brick, enchanted golden apple and vine) this represent what kind of Banner Pattern it is. The image below shows the different Banner Pattern and it's name to let you identify what Banner Pattern is needed in a Banner Design.
+bg.designingGuide.text3=To copy the banner design in this guide prepare your things needed in designing banner, things you need are listed in Preview image of the design. The Steps image shows the step of designing banner follow the sequence of applying pattern using numbers in it.
+bg.designingGuide.text4=In the steps you can see banner pattern together with 1 dye, this shows what banner pattern you need to select in loom and what dye you need to use in applying pattern.
+bg.designingGuide.text5=You can see some example of banner design that need Banner Pattern but in the steps it doesn't show which of those steps that need Banner Pattern, only you need to do is just to have that required Banner Pattern and that special pattern will shown in the list of banner patterns in loom, select it and the Banner Pattern will automatically place in Slot 3, so that's why it doesn't need to show anymore and also for saving space.
+bg.designingGuide.text6=Don't confuse what color banner you need to use as base banner, you can see that in Preview image it shows what color banner is needed in designing that kind of banner.
+
+##Animals
+
+animals.header.title0=Panda
+animals.header.title1=Chicken
+animals.header.title2=Sheep
+animals.header.title3=Fox
+animals.header.title4=Cow
+animals.header.title5=Goldfish
+
+##Foods
+
+foods.header.title0=Rice
+foods.header.title1=Pumpkin
+foods.header.title2=Orange
+foods.header.title3=Corn
+foods.header.title4=Pear
+foods.header.title5=Steaming Soup
+
+##Items
+
+items.header.title0=TNT
+items.header.title1=Ordinary Mirror
+items.header.title2=Castle Mirror
+items.header.title3=Anchor
+items.header.title4=Anvil
+items.header.title5=Fishing Pole
+
+##Monster
+
+monster.header.title0=Domo
+monster.header.title1=Guardian
+monster.header.title2=Zombie Pigman
+monster.header.title3=Enderman
+monster.header.title4=Sad Creeper
+monster.header.title5=Dragon
+
+##Pokemon
+
+pokemon.header.title0=Pikachu
+pokemon.header.title1=Diglet
+pokemon.header.title2=Pokeball
+pokemon.header.title3=Gyrados
+pokemon.header.title4=Swampert
+pokemon.header.title5=Zapdos
+pokemon.header.title6=Charizard
+pokemon.header.title7=Mudkip
+
+##Flag
+
+flag.header.title0=America
+flag.header.title1=Brazil
+flag.header.title2=Czech Republic
+flag.header.title3=India
+flag.header.title4=Tanzania
+flag.header.title5=United Kingdom
+flag.header.title6=Egypt
+flag.header.title7=Norway
+flag.header.title8=German WWII Flag
+flag.header.title9=Iceland
+
+##Logo
+
+logo.header.title0=Facebook
+logo.header.title1=Twitch
+logo.header.title2=Nuclear
+logo.header.title3=No Smoking Sign
+logo.header.title4=Pepsi
+logo.header.title5=Nuclear Symbol
+logo.header.title6=Yin Yang
+logo.header.title7=Pirate
+logo.header.title8=Water Symbol
+logo.header.title9=Cancer Awareness Logo
+
+##Starwars
+
+starwars.header.title0=Lightsaber
+starwars.header.title1=Two Lightsabers
+starwars.header.title2=Three Lightsabers
+starwars.header.title3=Dart Revan
+starwars.header.title4=Dart Vader
+
+##Alphabet
+
+alphabet.header.title0=Letter A
+alphabet.header.title1=Letter B
+alphabet.header.title2=Letter C
+alphabet.header.title3=Letter D
+alphabet.header.title4=Letter E
+alphabet.header.title5=Letter F
+alphabet.header.title6=Letter G
+alphabet.header.title7=Letter H
+alphabet.header.title8=Letter I
+alphabet.header.title9=Letter J
+alphabet.header.title10=Letter K
+alphabet.header.title11=Letter L
+alphabet.header.title12=Letter M
+alphabet.header.title13=Letter N
+alphabet.header.title14=Letter O
+alphabet.header.title15=Letter P
+alphabet.header.title16=Letter Q
+alphabet.header.title17=Letter R
+alphabet.header.title18=Letter S
+alphabet.header.title19=Letter T
+alphabet.header.title20=Letter U
+alphabet.header.title21=Letter V
+alphabet.header.title22=Letter W
+alphabet.header.title23=Letter X
+alphabet.header.title24=Letter Y
+alphabet.header.title25=Letter Z
+
+##Numbers
+
+numbers.header.title0=Number 0
+numbers.header.title1=Number 1
+numbers.header.title2=Number 2
+numbers.header.title3=Number 3
+numbers.header.title4=Number 4
+numbers.header.title5=Number 5
+numbers.header.title6=Number 6
+numbers.header.title7=Number 7
+numbers.header.title8=Number 8
+numbers.header.title9=Number 9
+
+##Other Guides
+
+otherGuides.header.title0=Redstone Guide
+otherGuides.header.title1=Chemistry Guide
+otherGuides.header.title2=Brewing Guide
+otherGuides.header.title3=Coming Guides
+
+bg.otherGuides.text0=Looking for more guides like this? There are more guide like this that teaches you everything about in Minecraft download these guides you want only at MCPEDL, listed below.
+bg.otherGuides.text1=A Redstone Guide brings you a deeper explanation of how redstone work and how to use it. Every redstone items explain their uses, with the help of this guide it helps you to understand more redstone it has picture to help you understand better. Building redstone mechanism and contraption is done with a step by step tutorial with pictures so you can understand it clearly. It's also have some redstone techniques/tricks, to help you for making your own redstone creation.
+bg.otherGuides.text2=This Guide is already available at MCPEDL.
+bg.otherGuides.text3=This guide explains the different crafting stations, new items in the Chemistry Resource Pack and how to craft products by combining compounds with Minecraft items to make helium balloons, glowsticks, bleach, super fertilizer, underwater torches and more.
+bg.otherGuides.text4=Brewing is the process of creating potions, splash potions and lingering potions by adding various ingredients to water bottles in a brewing stand. This guide will help you how to brew potions in Minecraft.
+
+bg.otherGuides.text5=The Guides that are listed below are guides that I plan to make wait them to be released only at MCPEDL.
+bg.otherGuides.text6=Command Guide - This guide is for teaching you how every command work and how to use them in this guide it's also teach you how do Command Block work and how to use them.
+bg.otherGuides.text7=Noteblock Guide - Note block allows you to create music using a lot of this blocks, learn how it work, learn notes of note block and create your own music.
+bg.otherGuides.text8=Fireworks Guide - Fireworks can modify how it looks like when it explode in air, in this guides it will help you to modify the explosion design of your fireworks.
+
+##Other Resources
+
+otherResources.workingTV.title=Working TV Addon
+otherResources.camouflageDoor.title=Camouflage Door & Trapdoor
+otherResources.ghostBlock.title=Ghost Block Addon
+otherResources.modernBlocks.title=Modern Blocks Addon
+otherResources.uncraftable.title=Un-Craftable Addon
+otherResources.simplePack.title=Simple Pack
+otherResources.trollParkour.title=Troll Parkour
+otherResources.escapeRoom.title=Escape Room: Mystery Word
+otherResources.4blocks1word.title=4 Blocks 1 Word
+otherResources.15waystodie.title=15 ways To Die
+otherResources.copyTheBanner.title=Copy The Banner
+
+otherResources.description.text=Also try other Resources that I was created. Texture pack, Add-on and Minigame Maps. All available at mcpedl.com
+otherResources.workingTV.text=A working TV that is not an enitity but rather it's a block, this TV has higher resolution and higher frames thus the GIF will smoothly play on TV.
+otherResources.camouflageDoor.text=This addon added different custom doors and custom trapdoors with vanilla blocks texture to make a camouflage door & trapdoor, so you can easily make a hidden room with these doors. There are variety of doors to choose so you can hide your base in any environment.
+otherResources.ghostBlock.text=Have you ever wanted to pass through wall to make hidden room? or through floor to make easy trap? Then this addon is for you. This addon convert normal blocks into ghost block so you can able to pass through it, hide in it or make a flawless trap using it.
+otherResources.modernBlocks.text=Make your world looks more modern, build and design your home, buildings, offices, bedroom, wardrobe and any other structures with these new decorative modern blocks. Craft modern furnitures with different variations, tiles with different variations and each variation consist of different pattern, build roads with all things you'll need and much more!
+otherResources.uncraftable.text=Un-Craftable is an addon that added new crafting recipes for those all items and blocks that you can't craft such as Totem, Saddle, Horse Armours, Saplings, Obsidian, Grass Blocks, Podzol etc. and also you can craft unobtainable blocks such as Bedrock, Mob Spawner, End Portal Frame, Spawn Eggs, Chemistry Tables and even creative blocks such as Command Block, barrier, border etc.
+otherResources.simplePack.text=Simple Pack brings a simple, smooth and clean textures to blocks, items and mobs. Also have animation in some blocks.
+otherResources.trollParkour.text=A Parkour game with a new twist were there a lot of fake platform, find the right way with trial and error method.
+otherResources.escapeRoom.text=You've been locked up in a strange room, you need constantly observe, think, guess, inference, to guess the word and escape in this strange room.
+otherResources.4blocks1word.text=A Minigame map which was based on 4 pics 1 word game, guess the word by looking at 4 blocks and rearranging and picking letters to form a word.
+otherResources.15waystodie.text=A Minigame map which your goal is to kill yourself, solve puzzles and find a way how would you kill yourself.
+otherResources.copyTheBanner.text=Test your skill in designing the banner how good is you, can you copy all of the banner designs?

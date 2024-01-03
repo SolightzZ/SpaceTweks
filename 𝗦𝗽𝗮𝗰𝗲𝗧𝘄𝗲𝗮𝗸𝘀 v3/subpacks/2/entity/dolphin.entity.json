@@ -1,0 +1,82 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:dolphin",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/dolphin/dolphin",
+        "default2": "textures/entity/dolphin/dolphin2",
+        "default3": "textures/entity/dolphin/dolphin3",
+        "default4": "textures/entity/dolphin/dolphin4",
+        "default5": "textures/entity/dolphin/dolphin5",
+        "default6": "textures/entity/dolphin/dolphin6",
+        "default7": "textures/entity/dolphin/dolphin7",
+        "default8": "textures/entity/dolphin/dolphin8",
+        "default9": "textures/entity/dolphin/dolphin9",
+        "default10": "textures/entity/dolphin/dolphin10",
+        "default11": "textures/entity/dolphin/dolphin11",
+        "default12": "textures/entity/dolphin/dolphin12",
+        "default13": "textures/entity/dolphin/dolphin13",
+        "default14": "textures/entity/dolphin/dolphin14",
+        "default15": "textures/entity/dolphin/dolphin15",
+        "default16": "textures/entity/dolphin/dolphin16",
+        "default17": "textures/entity/dolphin/dolphin17",
+        "default18": "textures/entity/dolphin/dolphin18",
+        "default19": "textures/entity/dolphin/dolphin19",
+        "default20": "textures/entity/dolphin/dolphin20",
+        "default21": "textures/entity/dolphin/dolphin21",
+        "default22": "textures/entity/dolphin/dolphin22",
+        "default23": "textures/entity/dolphin/dolphin23",
+        "default24": "textures/entity/dolphin/dolphin24",
+        "default25": "textures/entity/dolphin/dolphin25",
+        "default26": "textures/entity/dolphin/dolphin26",
+        "default27": "textures/entity/dolphin/dolphin27",
+        "default28": "textures/entity/dolphin/dolphin28",
+        "default29": "textures/entity/dolphin/dolphin29",
+        "default30": "textures/entity/dolphin/dolphin30",
+        "default31": "textures/entity/dolphin/dolphin31",
+        "default32": "textures/entity/dolphin/dolphin32",
+        "default33": "textures/entity/dolphin/dolphin33",
+        "default34": "textures/entity/dolphin/dolphin34",
+        "default35": "textures/entity/dolphin/dolphin35",
+        "default36": "textures/entity/dolphin/dolphin36",
+        "default37": "textures/entity/dolphin/dolphin37",
+        "default38": "textures/entity/dolphin/dolphin38",
+        "default39": "textures/entity/dolphin/dolphin39",
+        "default40": "textures/entity/dolphin/dolphin40",
+        "default41": "textures/entity/dolphin/dolphin41",
+        "default42": "textures/entity/dolphin/dolphin42",
+        "default43": "textures/entity/dolphin/dolphin43",
+        "default44": "textures/entity/dolphin/dolphin44",
+        "default45": "textures/entity/dolphin/dolphin45",
+        "default46": "textures/entity/dolphin/dolphin46"
+      },
+      "geometry": {
+        "default": "geometry.dolphin"
+      },
+      "animations": {
+        "move": "animation.dolphin.move"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.dolphin.general"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.dolphin"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 49
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Xvar = (variable.Xvar ?? Math.random(0,999));"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:soul_lantern",
+      "materials": {
+        "default": "phantom"
+      },
+      "textures": {
+        "default": "textures/blocks/soul_lantern"
+      },
+      "geometry": {
+        "default": "geometry.lantern"
+      },
+      "animations": {
+        "first_person": "animation.item.first_personL"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.item" ]
+    }
+  }
+}

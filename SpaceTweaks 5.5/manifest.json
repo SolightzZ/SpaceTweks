@@ -1,0 +1,42 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "\n§dDiscord§f : §eSolightz §fMore Press \n \nNew features and content at the website§r \n \n§bhttps://reimdes1.wixsite.com/shop §r  \n  \nlatest update 8/11/2023 ",
+      "name" : "§dSpace§fTweaks - §7[§7§r5.5§7]§r ",
+      "uuid" : "651f2b35-0bc8-4b82-a3f4-0a4f37eb67fe",
+      "version" : [ 1, 0, 0 ]
+   },
+   "modules" : [
+      {
+         "description" : "reimdes1.wixsite.com/shop§r",
+         "type" : "resources",
+         "uuid" : "f7b9d236-0f73-4a9b-bcd7-601cf2e6c665",
+         "version" : [ 1, 0, 0 ]
+      }
+   ],
+   "settings": [
+
+      {
+        "type": "label",
+        "text": "If you find a bug/eror, you can join our Discrod"
+      },
+      {
+        "type": "input",
+        "default": "https://discord.gg/gtqfbmvTJK",
+        "text": "Join Discord -> Sleeplite Server",
+        "name": ""
+      }
+   ],
+    "subpacks": [
+      {
+    		"folder_name": "2",
+    		"name": "Performance + Fogs",
+    		"memory_tier": 2
+    	},
+    	{
+    		"folder_name": "1",
+    		"name": "Default" ,
+    		"memory_tier": 1
+        }
+   ]
+}

@@ -1,0 +1,59 @@
+{
+   "grass" : {
+      "textures" : {
+         "down" : "grass_bottom",
+         "side" : "grass_side",
+         "up" : "cbfoliage_grass_top"
+      },
+      "carried_textures" : {
+         "down" : "grass_carried_bottom",
+         "side" : "grass_carried",
+         "up" : "cbfoliage_grass_carried_top"
+      }
+   },
+   "leaves" : {
+      "carried_textures" : "cbfoliage_leaves_carried",
+      "textures" : "cbfoliage_leaves"
+   },
+   "leaves2" : {
+      "carried_textures" : "cbfoliage_leaves_carried2",
+      "textures" : "cbfoliage_leaves2"
+   },
+   "mangrove_leaves" : {
+      "carried_textures" : "cbfoliage_mangrove_leaves_carried",
+      "textures" : "cbfoliage_mangrove_leaves"
+   },
+   "tallgrass" : {
+      "carried_textures" : "cbfoliage_tallgrass_carried",
+      "textures" : "cbfoliage_tallgrass"
+   },
+   "double_plant" : {
+      "carried_textures" : "cbfoliage_double_plant_carried",
+      "textures" : {
+         "down" : "cbfoliage_double_plant_bottom",
+         "side" : "sunflower_additional",
+         "up" : "cbfoliage_double_plant_top"
+      }
+   },
+   "vine" : {
+      "carried_textures" : "cbfoliage_vine_carried",
+      "textures" : "cbfoliage_vine"
+   },
+   "waterlily" : {
+      "carried_textures" : "cbfoliage_waterlily",
+      "textures" : "cbfoliage_waterlily"
+   },
+   "melon_stem" : {
+      "textures" : "cbfoliage_melon_stem"
+   },
+   "pumpkin_stem" : {
+      "textures" : "cbfoliage_pumpkin_stem"
+   },
+   "redstone_wire" : {
+      "textures" : {
+         "down" : "cbfoliage_redstone_dust_line",
+         "side" : "cbfoliage_redstone_dust_line",
+         "up" : "cbfoliage_redstone_dust_cross"
+      }
+   }
+}

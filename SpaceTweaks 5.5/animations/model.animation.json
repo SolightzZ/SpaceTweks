@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"a.player1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 5,
+			"bones": {
+				"Head": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [10, 0, 0]
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-80, 0, 0],
+						"5.0": [-80, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [-10, 0, 0]
+				},
+				"RightLeg": {
+					"rotation": [-10, 0, 0]
+				},
+				"LeftLeg": {
+					"rotation": [10, 0, 0]
+				}
+			}
+		}
+	}
+}

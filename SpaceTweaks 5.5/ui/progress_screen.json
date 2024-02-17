@@ -1,0 +1,86 @@
+{
+    "namespace": "progress",
+
+    "overlay": {
+        "type": "panel",
+        "size": "fill",
+        "$seizure|default": false,
+        
+        "controls": [
+            {
+                "dimension_text": {
+                    "type": "label",
+                    "$enter_text": "Entering ",
+                    "$dimension_name|default": "dimension",
+                    "text": "($enter_text + $dimension_name)",
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle",
+                    "offset": [ 0, 12 ],
+                    "shadow": true
+                }
+            },
+            {
+                "progress_title_text@progress.progress_title_text": {
+                    "color": [ 0.66, 0.66, 0.66 ],
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle",
+                    "offset": [ 0, 24 ],
+                    "shadow": true
+                }
+            },
+            {
+                "seizure_text": {
+                    "type": "label",
+                    "ignored": "(not $seizure)",
+                    "text": "§o§7World is hidden to prevent seizures",
+                    "anchor_from": "bottom_middle",
+                    "anchor_to": "bottom_middle",
+                    "offset": [ 0, -12 ],
+                    "shadow": true
+                }
+            }
+        ]
+    },
+
+    "dark_gradient": {
+        "type": "custom",
+        "renderer": "gradient_renderer",
+        "color1": [ 0, 0, 0, 0.69420 ],
+        "color2": [ 0, 0, 0, 0.85 ]
+    },
+
+    "overworld_loading_progress_screen": {
+        "$dimension_name": "§aOverworld",
+        "$seizure": true,
+
+        "force_render_below": true,
+        "is_showing_menu": false,
+        "absorbs_input": false,
+        "should_steal_mouse": true,
+        "$screen_content": "progress.overlay",
+        "$screen_bg_content": "progress.dark_gradient"
+    },
+
+    "nether_loading_progress_screen": {
+        "$dimension_name": "§cNether",
+        "$seizure": true,
+
+        "force_render_below": true,
+        "is_showing_menu": false,
+        "absorbs_input": false,
+        "should_steal_mouse": true,
+        "$screen_content": "progress.overlay",
+        "$screen_bg_content": "progress.nether_loading_background"
+    },
+
+    "theend_loading_progress_screen": {
+        "$dimension_name": "§dThe End",
+
+        "force_render_below": true,
+        "is_showing_menu": false,
+        "absorbs_input": false,
+        "should_steal_mouse": true,
+        "$screen_content": "progress.overlay",
+        "$screen_bg_content": "common.base_screen_empty_panel"
+    }
+}

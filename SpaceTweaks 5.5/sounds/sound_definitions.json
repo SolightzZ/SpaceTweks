@@ -1,0 +1,26 @@
+{
+    "music.game": {
+      "category": "music",
+      "sounds": [
+        {
+          "load_on_low_memory": true,
+          "name": "sounds/music/custom/1",
+          "stream": true,
+          "volume": 0.2
+        },
+        {
+          "load_on_low_memory": true,
+          "name": "sounds/music/custom/2",
+          "stream": true,
+          "volume": 0.2
+        },
+        {
+          "load_on_low_memory": true,
+          "name": "sounds/music/custom/3",
+          "stream": true,
+          "volume": 0.2
+        }
+      ]
+    }
+  }
+  
